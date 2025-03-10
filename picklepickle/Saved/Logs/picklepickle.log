@@ -2208,3 +2208,34 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2025.03.10-15.08.04:407][326]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1937.286255
 [2025.03.10-15.08.04:747][330]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.10-15.08.04:747][330]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1937.532349, Update Interval: 357.670837
+[2025.03.10-15.11.03:064][846]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2025.03.10-15.11.03:076][846]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2025.03.10-15.11.03:080][846]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.03.10-15.11.03:081][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.10-15.11.03:103][846]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.03.10-15.11.03:103][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.10-15.11.03:133][846]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.03.10-15.11.03:134][846]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.03.10-15.11.03:134][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.10-15.11.45:655][527]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.10-15.11.48:616][644]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.10-15.11.48:708][644]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/WI/9368RY3OPVY0MUEUDHR78B
+[2025.03.10-15.11.48:708][644]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/9368RY3OPVY0MUEUDHR78B27D1343C4FAC4081BAE1E0930ED5386B.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/WI/9368RY3OPVY0MUEUDHR78B.uasset'
+[2025.03.10-15.11.48:712][644]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/4H/UBSBIPOER7HSF7J4996WXX
+[2025.03.10-15.11.48:712][644]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/UBSBIPOER7HSF7J4996WXXBD794F6C4A58D9CF853608B9C773ADFF.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/4H/UBSBIPOER7HSF7J4996WXX.uasset'
+[2025.03.10-15.11.48:718][644]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/26/QQ33P0X99WAGOUD3MFK1VX
+[2025.03.10-15.11.48:718][644]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/QQ33P0X99WAGOUD3MFK1VX24DFE195400E5751B9F8558963D1CFEB.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/26/QQ33P0X99WAGOUD3MFK1VX.uasset'
+[2025.03.10-15.11.48:722][644]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/M7/YMRQ48V86CFYYONXIZAU8T
+[2025.03.10-15.11.48:722][644]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/YMRQ48V86CFYYONXIZAU8T5679077448E6A2738FEC25A5E9EF840C.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/M7/YMRQ48V86CFYYONXIZAU8T.uasset'
+[2025.03.10-15.11.48:733][644]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 379 ms)
+[2025.03.10-15.11.48:737][644]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.10-15.11.48:737][644]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_A02942E8EEBDC85302_1879368344
+[2025.03.10-15.11.48:737][644]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/StockCube_AI.StockCube_AI_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StockCube_AI_C_UAID_A02942E8EEBDD55302_2083085631
+[2025.03.10-15.11.48:737][644]LogContentValidation: Display: Validating /Script/NavigationSystem.NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A02942E8EEBDD65302_1261616809
+[2025.03.10-15.11.48:737][644]LogContentValidation: Display: Validating /Script/NavigationSystem.RecastNavMesh /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.RecastNavMesh_UAID_A02942E8EEBDD65302-Default
+[2025.03.10-15.11.51:720][757]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2025.03.10-15.12.17:628][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.03.10-15.12.17:630][936]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.019
+[2025.03.10-15.12.17:630][936]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/3A/OQL2P4JOWM990ELFR7OI9E_Auto3
+[2025.03.10-15.12.17:630][936]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/OQL2P4JOWM990ELFR7OI9E_Auto31E567A324FE82488DFAE9DA089104C83.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/3A/OQL2P4JOWM990ELFR7OI9E_Auto3.uasset'
+[2025.03.10-15.12.17:631][936]LogFileHelpers: Auto-saving content packages took 0.002
