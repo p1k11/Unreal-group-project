@@ -6,6 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/timot/Documents/UnrealProjects/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778.uasset",
+				"C:/Users/timot/Documents/UnrealProjects/Unreal-group-project/picklepickle/Content/MainMenuMap.umap",
+				"C:/Users/timot/Documents/UnrealProjects/Unreal-group-project/picklepickle/Content/MainMenu.uasset",
+				"C:/Users/timot/Documents/UnrealProjects/Unreal-group-project/picklepickle/Content/UI/ai_cartoony_pickle.uasset",
+				"C:/Users/timot/Documents/UnrealProjects/Unreal-group-project/picklepickle/Content/MenuGamemode.uasset",
 				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
 			]
 		}
