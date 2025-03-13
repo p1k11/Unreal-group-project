@@ -1673,3 +1673,392 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.13-11.09.58:211][506]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 896 ms)
 [2025.03.13-11.09.58:212][506]AssetCheck: New page: Asset Save: StockCube_AI
 [2025.03.13-11.09.58:212][506]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/StockCube_AI.StockCube_AI
+[2025.03.13-11.10.54:466][731]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.13-11.10.54:479][731]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.03.13-11.10.54:480][731]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.03.13-11.10.54:491][731]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 11 ms (total: 29 ms)
+[2025.03.13-11.10.54:498][731]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.03.13-11.10.54:501][731]LogPlayLevel: [PlayLevel] Compiling StockCube_AI before play...
+[2025.03.13-11.10.54:563][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.03.13-11.10.54:566][731]LogPlayLevel: PlayLevel: Blueprint regeneration took 68 ms (1 blueprints)
+[2025.03.13-11.10.54:567][731]PIE: New page: PIE session: FirstPersonMap (13 Mar 2025, 11:10:54)
+[2025.03.13-11.10.54:572][731]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.03.13-11.10.54:600][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028300s)
+[2025.03.13-11.10.54:601][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.028386s)
+[2025.03.13-11.10.54:615][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.03.13-11.10.54:620][731]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.13-11.10.54:625][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.13-11.10.54:627][731]LogAIModule: Creating AISystem for world FirstPersonMap
+[2025.03.13-11.10.54:635][731]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.03.13-11.10.54:635][731]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.03.13-11.10.54:636][731]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.03.13-11.10.54:636][731]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.03.13-11.10.54:637][731]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2025.03.13-11.10.54:637][731]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 364 ms)
+[2025.03.13-11.10.54:637][731]LogPlayLevel: PIE: World Init took: (0.019945s)
+[2025.03.13-11.10.54:640][731]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.03.13-11.10.54:642][731]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.13-11.10.54:642][731]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.13-11.10.54:642][731]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.13-11.10.54:642][731]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.13-11.10.54:642][731]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.13-11.10.54:642][731]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.13-11.10.54:642][731]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.13-11.10.54:642][731]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.13-11.10.54:645][731]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.13-11.10.54:646][731]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.13-11.10.54:646][731]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.13-11.10.54:650][731]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.13-11.10.54:762][731]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2025.03.13-11.10.54:765][731]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.13-11.10.54:766][731]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.13-11.10.54:766][731]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.13-11.10.54:770][731]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.03.13-11.10.54:770][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.03.13-11.10.54:772][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.03.13-11.10.54:772][731]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.03.13-11.10.54:772][731]LogInit: FAudioDevice initialized with ID 6.
+[2025.03.13-11.10.54:773][731]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.03.13-11.10.54:773][731]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.03.13-11.10.54:788][731]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.03.13-11.10.54:798][731]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.03.13-11.10.54
+[2025.03.13-11.10.54:808][731]LogWorld: Bringing up level for play took: 0.019762
+[2025.03.13-11.10.54:823][731]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.03.13-11.10.54:879][731]PIE: Server logged in
+[2025.03.13-11.10.54:880][731]PIE: Play in editor total start time 0.403 seconds.
+[2025.03.13-11.11.03:172][930]LogBlueprintUserMessages: [BP_Rifle_C_1] Cast to BP_FirstPersonCharacter FAILED
+[2025.03.13-11.11.08:101][111]LogCharacterMovement: StockCube_AI_C_UAID_A02942E8EEBDD55302_2083085631 is stuck and failed to move! Velocity: X=2.96 Y=-259.12 Z=0.00 Location: X=1252.78 Y=1480.67 Z=62.85 Normal: X=-0.30 Y=0.96 Z=0.00 PenetrationDepth:2.323 Actor:StockCube_AI1_C_UAID_A02942E8EEBDB75402_1891946407 Component:Cube BoneName:None (0 other events since notify)
+[2025.03.13-11.11.28:315][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-11.11.28:315][854]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.03.13-11.11.28:319][854]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.11.28:323][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.11.28:324][854]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2025.03.13-11.11.28:337][854]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.13-11.11.28:342][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.11.28:359][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.13-11.11.28:360][854]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.03.13-11.11.28:363][854]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.03.13-11.11.28:365][854]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.03.13-11.11.28:386][854]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2025.03.13-11.11.28:462][855]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.03.13-11.13.05:863][ 88]Cmd: POLY SELECT ADJACENT WALLS
+[2025.03.13-11.14.33:124][502]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4365.481445
+[2025.03.13-11.14.33:314][510]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-11.14.33:314][510]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4365.648438, Update Interval: 340.886871
+[2025.03.13-11.16.18:019][530]AssetReimport: New page: Outstanding source content changes 11:16:18
+[2025.03.13-11.16.18:073][531]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest006_2-new-nm.png)
+[2025.03.13-11.16.18:077][531]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.03.13-11.16.18:198][532]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest006-new.png)
+[2025.03.13-11.16.18:306][533]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest006-new-nm.png)
+[2025.03.13-11.16.18:312][533]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.03.13-11.16.18:462][534]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen001-new.png)
+[2025.03.13-11.16.18:476][534]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen001-new-nm.png)
+[2025.03.13-11.16.18:622][535]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen002-new.png)
+[2025.03.13-11.16.18:632][535]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.03.13-11.16.18:740][536]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen002-new-nm.png)
+[2025.03.13-11.16.18:745][536]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.03.13-11.16.18:862][537]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen003-new2.png)
+[2025.03.13-11.16.18:927][538]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen003-new-nm.png)
+[2025.03.13-11.16.19:039][539]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/wash_a-new.png)
+[2025.03.13-11.16.19:054][539]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/wash_a-new-nm.png)
+[2025.03.13-11.16.19:219][540]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest005-new.png)
+[2025.03.13-11.16.19:356][541]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest005-new-nm.png)
+[2025.03.13-11.16.19:364][541]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.03.13-11.16.19:524][542]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest006_2-new.png)
+[2025.03.13-11.16.19:537][542]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.16.19:809][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/chest006_2-new-nm
+[2025.03.13-11.16.19:809][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/chest006_2-new-nm5CA14A704CF018AFA85C058A00CE8FAA.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest006_2-new-nm.uasset'
+[2025.03.13-11.16.19:823][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/chest006-new
+[2025.03.13-11.16.19:823][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/chest006-new1A5F51FA450C9316E3C33795D925DF16.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest006-new.uasset'
+[2025.03.13-11.16.19:840][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/chest006-new-nm
+[2025.03.13-11.16.19:840][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/chest006-new-nmDEDAA0CC4BA914FA834393B3B14D86E5.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest006-new-nm.uasset'
+[2025.03.13-11.16.19:853][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/kitchen001-new
+[2025.03.13-11.16.19:853][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/kitchen001-new3BE9E72F4D005DE9A0A7FE9D4C6B1C77.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen001-new.uasset'
+[2025.03.13-11.16.19:866][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/kitchen001-new-nm
+[2025.03.13-11.16.19:867][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/kitchen001-new-nmEA4BB6D040D1BEBC64036BA20EA35D18.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen001-new-nm.uasset'
+[2025.03.13-11.16.19:886][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/kitchen002-new
+[2025.03.13-11.16.19:886][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/kitchen002-new4A92765345AA89BEC24D339D0789BFF9.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen002-new.uasset'
+[2025.03.13-11.16.19:897][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/kitchen002-new-nm
+[2025.03.13-11.16.19:897][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/kitchen002-new-nm2A33BDCE45BD115F936940B1AF98CA04.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen002-new-nm.uasset'
+[2025.03.13-11.16.19:913][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/kitchen003-new2
+[2025.03.13-11.16.19:913][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/kitchen003-new2717AC6EA47355CCEDCED14958D57BA18.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen003-new2.uasset'
+[2025.03.13-11.16.19:922][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/kitchen003-new-nm
+[2025.03.13-11.16.19:922][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/kitchen003-new-nm2F366CD84A5FDFDAF072118DE8BC7680.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen003-new-nm.uasset'
+[2025.03.13-11.16.19:926][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kitchen_Assets/wash_a-new" FILE="../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/wash_a-new.uasset" SILENT=true
+[2025.03.13-11.16.19:936][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/wash_a-new
+[2025.03.13-11.16.19:936][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/wash_a-newCE5FEA8A4E2A4F694DC0B0BFD8F08D1C.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/wash_a-new.uasset'
+[2025.03.13-11.16.19:950][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/wash_a-new-nm
+[2025.03.13-11.16.19:950][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/wash_a-new-nm8F2DF0CC40E5806E68E310A371502791.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/wash_a-new-nm.uasset'
+[2025.03.13-11.16.19:965][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/chest005-new
+[2025.03.13-11.16.19:965][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/chest005-new69AA67C64322A74FCF2338B9A7B87979.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest005-new.uasset'
+[2025.03.13-11.16.19:986][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/chest005-new-nm
+[2025.03.13-11.16.19:986][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/chest005-new-nmBBA1601E4C5D65CE532B90BA344A8523.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest005-new-nm.uasset'
+[2025.03.13-11.16.19:999][542]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/chest006_2-new
+[2025.03.13-11.16.19:999][542]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/chest006_2-new02D4E4FC4F896AC1F2A978BF45C19FEF.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest006_2-new.uasset'
+[2025.03.13-11.16.20:021][542]LogFileHelpers: InternalPromptForCheckoutAndSave took 483 ms (total: 1.38 sec)
+[2025.03.13-11.16.20:041][543]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/chest006_2-new-nm.chest006_2-new-nm
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/chest006-new.chest006-new
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/chest006-new-nm.chest006-new-nm
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/kitchen001-new.kitchen001-new
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/kitchen001-new-nm.kitchen001-new-nm
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/kitchen002-new.kitchen002-new
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/kitchen002-new-nm.kitchen002-new-nm
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/kitchen003-new2.kitchen003-new2
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/kitchen003-new-nm.kitchen003-new-nm
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/wash_a-new.wash_a-new
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/wash_a-new-nm.wash_a-new-nm
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/chest005-new.chest005-new
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/chest005-new-nm.chest005-new-nm
+[2025.03.13-11.16.20:041][543]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/chest006_2-new.chest006_2-new
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/chest006_2-new-nm.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/chest006-new.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/chest006-new-nm.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/kitchen001-new.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/kitchen001-new-nm.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/kitchen002-new.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/kitchen002-new-nm.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/kitchen003-new2.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/kitchen003-new-nm.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/wash_a-new.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/wash_a-new-nm.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/chest005-new.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/chest005-new-nm.
+[2025.03.13-11.16.23:029][652]AssetReimport: Importing new asset /Game/Kitchen_Assets/chest006_2-new.
+[2025.03.13-11.16.58:328][528]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: ================================================
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Total job queries 32, among them cache hits 12 (37.50%)
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Tracking 15 distinct input hashes that result in 11 distinct outputs (73.33%)
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: RAM used: 309.43 KiB of 819.20 MiB budget. Usage: 0.04%
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Shaders Compiled: 15
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Jobs assigned 18, completed 15 (83.33%)
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Average time worker was idle: 314.90 s
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Time job spent in pending queue: average 0.72 s, longest 3.09 s
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Job execution time: average 2.74 s, max 6.04 s
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Job life time (pending + execution): average 3.59 s, max 6.11
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Shader code size: average 34.302 KiB, min 31.004 KiB, max 38.477 KiB
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.05 s
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Jobs were issued in 18 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Average processing rate: 2.13 jobs/sec
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Total thread time: 17.006 s
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Total thread preprocess time: 11.441 s
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Percentage time preprocessing: 67.27%
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Effective parallelization: 2.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 1.24 sec, max 2.21 sec, min 0.26 sec)
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 1.05 sec, max 1.69 sec, min 0.31 sec)
+[2025.03.13-11.16.58:871][547]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.78 sec, max 1.41 sec, min 0.15 sec)
+[2025.03.13-11.16.58:872][547]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2025.03.13-11.16.58:872][547]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 43.89% of total time (compiled    6 times, average 1.24 sec, max 2.21 sec, min 0.26 sec)
+[2025.03.13-11.16.58:872][547]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 37.20% of total time (compiled    6 times, average 1.05 sec, max 1.69 sec, min 0.31 sec)
+[2025.03.13-11.16.58:872][547]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.71% of total time (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2025.03.13-11.16.58:872][547]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.19% of total time (compiled    2 times, average 0.78 sec, max 1.41 sec, min 0.15 sec)
+[2025.03.13-11.16.58:872][547]LogShaderCompilers: Display: ================================================
+[2025.03.13-11.17.11:199][996]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Kitchen_Assets/kitchen001-new-nm.kitchen001-new-nm
+[2025.03.13-11.17.11:599][996]LogViewport: Scene viewport resized to 2126x1420, mode Windowed.
+[2025.03.13-11.17.31:025][636]LogTexture: Display: Building textures: /Game/Kitchen_Assets/kitchen001-new-nm.kitchen001-new-nm (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Final
+[2025.03.13-11.17.31:043][636]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.13-11.17.37:397][846]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.17.37:509][846]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/kitchen001-new-nm
+[2025.03.13-11.17.37:510][846]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/kitchen001-new-nmEC5C29E94A21E3F2D9A3D08FE31893DA.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen001-new-nm.uasset'
+[2025.03.13-11.17.37:521][846]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 1.50 sec)
+[2025.03.13-11.17.37:523][846]AssetCheck: New page: Asset Save: kitchen001-new-nm
+[2025.03.13-11.17.37:523][846]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Kitchen_Assets/kitchen001-new-nm.kitchen001-new-nm
+[2025.03.13-11.18.30:427][759]LogContentBrowser: Deferred new asset file creation: chest006_2-new-nm_Mat
+[2025.03.13-11.18.30:457][759]LogContentBrowser: Creating deferred item: chest006_2-new-nm_Mat
+[2025.03.13-11.18.30:514][760]LogContentBrowser: Renaming the item being created (Deferred Item: chest006_2-new-nm_Mat).
+[2025.03.13-11.18.34:306][902]LogContentBrowser: Attempting asset rename: chest006_2-new-nm_Mat -> chest006_2-new-nm_Mat
+[2025.03.13-11.18.34:327][902]LogContentBrowser: End creating deferred item chest006_2-new-nm_Mat
+[2025.03.13-11.18.43:234][187]LogContentBrowser: Deferred new asset file creation: kitchen001-new-nm_Mat
+[2025.03.13-11.18.43:270][187]LogContentBrowser: Creating deferred item: kitchen001-new-nm_Mat
+[2025.03.13-11.18.43:325][188]LogContentBrowser: Renaming the item being created (Deferred Item: kitchen001-new-nm_Mat).
+[2025.03.13-11.18.44:878][247]LogContentBrowser: Attempting asset rename: kitchen001-new-nm_Mat -> kitchen001-new-nm_Mat
+[2025.03.13-11.18.44:909][247]LogContentBrowser: End creating deferred item kitchen001-new-nm_Mat
+[2025.03.13-11.19.25:557][695]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.19.25:707][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.03.13-11.19.25:729][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.03.13-11.19.25:742][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.03.13-11.19.25:745][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U
+[2025.03.13-11.19.25:745][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/LYKU8MRWM4BO3O1FDZBG2UF2DF0F264E74BB56CD2900875BB5B397.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U.uasset'
+[2025.03.13-11.19.25:749][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20
+[2025.03.13-11.19.25:750][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/QZX5AESKLO855EVPT5JU2036EBEAFD4F33F5D102C728905F7C63F5.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20.uasset'
+[2025.03.13-11.19.25:754][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/NB/NWWEVRQSGT6ARVZ8HQLCM9
+[2025.03.13-11.19.25:755][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/NWWEVRQSGT6ARVZ8HQLCM98BF3CD874EAF3B5EA6E9FAA43D5AD911.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/NB/NWWEVRQSGT6ARVZ8HQLCM9.uasset'
+[2025.03.13-11.19.25:757][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2
+[2025.03.13-11.19.25:758][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/R4MRTH8FEAO7ML1BCJFIZ2F41F24B04AE0295AD46D178E6A265B01.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2.uasset'
+[2025.03.13-11.19.25:762][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM
+[2025.03.13-11.19.25:762][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/MG6FOV6QQX2CAZCGF7O9MME730EAE64ECBCDA23D46BD9F93FDC6F3.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.uasset'
+[2025.03.13-11.19.25:767][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JT/XIHYQ8ZTVL6F9GCUZX1AQ2
+[2025.03.13-11.19.25:768][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/XIHYQ8ZTVL6F9GCUZX1AQ28B8D00AE47B1A2F4F060849C1677D869.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JT/XIHYQ8ZTVL6F9GCUZX1AQ2.uasset'
+[2025.03.13-11.19.25:771][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/QL/31H7DJTVWEX04CCMX5U1SN
+[2025.03.13-11.19.25:772][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/31H7DJTVWEX04CCMX5U1SN720B005A400A76DA1466D3A1A6EDAADF.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/QL/31H7DJTVWEX04CCMX5U1SN.uasset'
+[2025.03.13-11.19.25:775][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/0O/4IRR0TBO7VGKMMYSZRQTB1
+[2025.03.13-11.19.25:775][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/4IRR0TBO7VGKMMYSZRQTB155D8EEE04B6E5905C3690581E17BCEF5.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/0O/4IRR0TBO7VGKMMYSZRQTB1.uasset'
+[2025.03.13-11.19.25:779][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/AI/0XWE3RNM2XQC0ST1KXG02O
+[2025.03.13-11.19.25:781][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/0XWE3RNM2XQC0ST1KXG02OA10A2D2E480793CEA887D396AF8CA58E.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/AI/0XWE3RNM2XQC0ST1KXG02O.uasset'
+[2025.03.13-11.19.25:785][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/C8/Z38FT77DKZLKDXTQ7PZNM4
+[2025.03.13-11.19.25:785][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Z38FT77DKZLKDXTQ7PZNM43A58DCF7444F0345FBB7E694F20AFC71.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/C8/Z38FT77DKZLKDXTQ7PZNM4.uasset'
+[2025.03.13-11.19.25:788][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH
+[2025.03.13-11.19.25:789][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/XRLOR3HVYVHJA3N9PKGXZH6F6859164CB7511395CACEB6EB977DE7.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH.uasset'
+[2025.03.13-11.19.25:794][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YY/ZEL6NJUQJU43LAD9X3NXTT
+[2025.03.13-11.19.25:795][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/ZEL6NJUQJU43LAD9X3NXTT7A0FB4F740787CF1396FE389933CB619.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YY/ZEL6NJUQJU43LAD9X3NXTT.uasset'
+[2025.03.13-11.19.25:799][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV
+[2025.03.13-11.19.25:800][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/DXY1ROMU8NVTUPH999VNGV9809EA2C44577A33BD3E1D9C5C791D6B.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV.uasset'
+[2025.03.13-11.19.25:804][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/PT/ZXUQMNLL9GZ2UNQ5D0R4A4
+[2025.03.13-11.19.25:804][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/ZXUQMNLL9GZ2UNQ5D0R4A4ECF679C1440A22D7498312920D1ADD6D.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/PT/ZXUQMNLL9GZ2UNQ5D0R4A4.uasset'
+[2025.03.13-11.19.25:808][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/80/QQN0UFFAA797E1UT4IMD29
+[2025.03.13-11.19.25:808][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/QQN0UFFAA797E1UT4IMD2956F8492A49274908BC94539224CAE40C.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/80/QQN0UFFAA797E1UT4IMD29.uasset'
+[2025.03.13-11.19.25:811][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/DI/1JZHHCOBVQ2F5XRUWSES1X
+[2025.03.13-11.19.25:812][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/1JZHHCOBVQ2F5XRUWSES1X5EDAFD2349586C938F4FEFA225F170FE.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/DI/1JZHHCOBVQ2F5XRUWSES1X.uasset'
+[2025.03.13-11.19.25:814][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0
+[2025.03.13-11.19.25:815][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/7EHFAZ5HVWXAWQ04QO5TH03EDE8B594B510F193FD315BBB8C3D30F.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset'
+[2025.03.13-11.19.25:819][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R
+[2025.03.13-11.19.25:820][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/2XZ3RUK0LFB63FVNQE7P5R063EA7EC41F2ED412180B0B2526AC97C.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R.uasset'
+[2025.03.13-11.19.25:823][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HC/FI3CQDKJY4J00D2B21FYQZ
+[2025.03.13-11.19.25:824][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/FI3CQDKJY4J00D2B21FYQZ798AD43B4633EAA190A6CF925598E4C5.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HC/FI3CQDKJY4J00D2B21FYQZ.uasset'
+[2025.03.13-11.19.25:828][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/5X/6EW8RE9VA2GGHRWK614FCI
+[2025.03.13-11.19.25:829][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/6EW8RE9VA2GGHRWK614FCI8E3588F54E4E9D238DEA668346264843.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/5X/6EW8RE9VA2GGHRWK614FCI.uasset'
+[2025.03.13-11.19.25:831][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/DF/1GID8P6B00XRWKYCXU7HT1
+[2025.03.13-11.19.25:832][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/1GID8P6B00XRWKYCXU7HT1D9E5D0474745D9962E0E2DA378D27CCD.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/DF/1GID8P6B00XRWKYCXU7HT1.uasset'
+[2025.03.13-11.19.25:835][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/GI/GZM47KS5FPIQH5TLSYC1ME
+[2025.03.13-11.19.25:835][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/GZM47KS5FPIQH5TLSYC1ME1856D716457261C53EE4FA93629A476D.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/GI/GZM47KS5FPIQH5TLSYC1ME.uasset'
+[2025.03.13-11.19.25:838][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/WS/X084A70TPBKFLJDCV2U5PN
+[2025.03.13-11.19.25:839][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/X084A70TPBKFLJDCV2U5PN69A8523A44A06F9594F430A703FD8722.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/WS/X084A70TPBKFLJDCV2U5PN.uasset'
+[2025.03.13-11.19.25:843][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK
+[2025.03.13-11.19.25:843][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/4ATOKH0ZGPCVBS85MPKAXK4A40630D4F92DAC3EDC0D3A731EA69C3.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset'
+[2025.03.13-11.19.25:846][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE
+[2025.03.13-11.19.25:847][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/RCXALNT3NG94XMV0V6D4XEF03B994D485110339F8F8CAA9267A73C.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE.uasset'
+[2025.03.13-11.19.25:850][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778
+[2025.03.13-11.19.25:851][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/ZNIOCRD90Z70MMV9NMW778A85A74AA4B62EB0C68992981DAC96D9B.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778.uasset'
+[2025.03.13-11.19.25:855][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CW/6HT16P8P5RAXNJG3EVYWE9
+[2025.03.13-11.19.25:856][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/6HT16P8P5RAXNJG3EVYWE993DC24F444DD7DE0AC87D6B9B1340BD1.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CW/6HT16P8P5RAXNJG3EVYWE9.uasset'
+[2025.03.13-11.19.25:859][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/SZ/D1AHM62WL9TXSNPYQDXQMZ
+[2025.03.13-11.19.25:860][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/D1AHM62WL9TXSNPYQDXQMZA1F80A0442B62ED89582A7AE8FCDE077.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/SZ/D1AHM62WL9TXSNPYQDXQMZ.uasset'
+[2025.03.13-11.19.25:863][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Y4/KY9ZXT77SAVGWBRTNCFCSC
+[2025.03.13-11.19.25:863][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/KY9ZXT77SAVGWBRTNCFCSCCBE0B44346ED5DD097D62AB6F8AB7ABE.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Y4/KY9ZXT77SAVGWBRTNCFCSC.uasset'
+[2025.03.13-11.19.25:866][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6K/53TOYTOLDEUBMS5SLUFP3V
+[2025.03.13-11.19.25:867][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/53TOYTOLDEUBMS5SLUFP3V18CE1CB544C1AD4411F965A6928C5EE3.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6K/53TOYTOLDEUBMS5SLUFP3V.uasset'
+[2025.03.13-11.19.25:870][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JW/IY5R6I5N0YWU9LYWKXFXH9
+[2025.03.13-11.19.25:871][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/IY5R6I5N0YWU9LYWKXFXH9A3B3BBE649DA371A9CEC8CBFDB106357.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JW/IY5R6I5N0YWU9LYWKXFXH9.uasset'
+[2025.03.13-11.19.25:875][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32
+[2025.03.13-11.19.25:875][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/9MHHMH0XHVZ04YDZ7NPC3224E0B84848164181B58E6EAD2C61C56B.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32.uasset'
+[2025.03.13-11.19.25:878][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL
+[2025.03.13-11.19.25:878][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/TOKV0KMMZ7RIQ78R0UEDQLE67865AE40B1B0F939112EA808D68DFF.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL.uasset'
+[2025.03.13-11.19.25:886][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9
+[2025.03.13-11.19.25:886][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/FVTPO8KZ0WPMCSQLVJE6O9894802D947FA2981C90258BEF5349BF4.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9.uasset'
+[2025.03.13-11.19.25:890][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2W/U0XT0R08XQA6C15NK8ILFA
+[2025.03.13-11.19.25:891][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/U0XT0R08XQA6C15NK8ILFAFF8231944DB4C716CA9B0CB153B3C59A.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2W/U0XT0R08XQA6C15NK8ILFA.uasset'
+[2025.03.13-11.19.25:894][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/91/64ROQWZ22CQVFJMU4XABML
+[2025.03.13-11.19.25:894][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/64ROQWZ22CQVFJMU4XABML86983B484AAAEF6AE11A83B271FDF099.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/91/64ROQWZ22CQVFJMU4XABML.uasset'
+[2025.03.13-11.19.25:898][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/RJ/Z7CLKO8GGJ7RXH5PUAF4T4
+[2025.03.13-11.19.25:898][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Z7CLKO8GGJ7RXH5PUAF4T4DE6C6E5746C9A8BEC76877A5E76CCCAF.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/RJ/Z7CLKO8GGJ7RXH5PUAF4T4.uasset'
+[2025.03.13-11.19.25:903][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX
+[2025.03.13-11.19.25:904][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/HL558UUAGCS9HVVOI0S7PX8A98215042B757F862FAD4826932A84C.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX.uasset'
+[2025.03.13-11.19.25:906][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/51/6JKB4DNGJP09QUHY23FHRV
+[2025.03.13-11.19.25:907][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/6JKB4DNGJP09QUHY23FHRVEC8C308740D9C1395F91F18E2EE4D057.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/51/6JKB4DNGJP09QUHY23FHRV.uasset'
+[2025.03.13-11.19.25:909][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/DD/654T6CAPVSXAN1LXEX71EI
+[2025.03.13-11.19.25:910][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/654T6CAPVSXAN1LXEX71EI6FB7E8F6430FD30DFBD4CF9B42187A35.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/DD/654T6CAPVSXAN1LXEX71EI.uasset'
+[2025.03.13-11.19.25:913][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/EF/G3O7YJR3QU51OHQGRYB635
+[2025.03.13-11.19.25:913][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/G3O7YJR3QU51OHQGRYB635DDA73ED54C92F7885F831AAAF0D9E058.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/EF/G3O7YJR3QU51OHQGRYB635.uasset'
+[2025.03.13-11.19.25:918][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YQ/KT6JL4FVCNJJ9VFOCSF32J
+[2025.03.13-11.19.25:918][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/KT6JL4FVCNJJ9VFOCSF32J03B105FE419D4F2F7226BC8170337463.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YQ/KT6JL4FVCNJJ9VFOCSF32J.uasset'
+[2025.03.13-11.19.25:921][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H
+[2025.03.13-11.19.25:922][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/0GJ9TLQE2YKOIFZ6YHG33H3485DC0F45A7C6C56ABDDF888EA9ED16.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H.uasset'
+[2025.03.13-11.19.25:925][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S
+[2025.03.13-11.19.25:926][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/YUZ9741T50O1SYRX90OB0SDF6AF77D450E978C119A719641AA53E6.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset'
+[2025.03.13-11.19.25:929][695]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA
+[2025.03.13-11.19.25:930][695]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/0SPQG8P507LI9VUAFG20OA096C9BF14ED02BA8DE680EB2C4876CE8.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA.uasset'
+[2025.03.13-11.19.25:955][695]LogFileHelpers: InternalPromptForCheckoutAndSave took 397 ms (total: 1.90 sec)
+[2025.03.13-11.19.25:969][695]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_13
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_26
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_45
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_25
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_12
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_23
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_50
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_6
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_1
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_5
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_47
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_42
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_24
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_15
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_33
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_34
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_4
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_17
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_21
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_22
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_43
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_49
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_30
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_41
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_44
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_14
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_8
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_46
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_18
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_19
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_32
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_31
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_16
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_37
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_51
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_35
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_10
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_28
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_27
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_36
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_38
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_29
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_9
+[2025.03.13-11.19.25:969][695]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_20
+[2025.03.13-11.20.01:924][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.03.13-11.20.03:279][479]LogSlate: Window 'Save Content' being destroyed
+[2025.03.13-11.20.03:289][479]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: ================================================
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Total job queries 52, among them cache hits 12 (23.08%)
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Tracking 38 distinct input hashes that result in 27 distinct outputs (71.05%)
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: RAM used: 854.86 KiB of 819.20 MiB budget. Usage: 0.10%
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Shaders Compiled: 38
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Jobs assigned 38, completed 38 (100%)
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Average time worker was idle: 259.12 s
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Time job spent in pending queue: average 0.44 s, longest 3.09 s
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Job execution time: average 1.41 s, max 6.04 s
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Job life time (pending + execution): average 1.85 s, max 6.11
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Shader code size: average 37.911 KiB, min 31.004 KiB, max 61.555 KiB
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.47 s
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Jobs were issued in 38 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Average processing rate: 4.01 jobs/sec
+[2025.03.13-11.20.04:544][479]LogShaderCompilers: Display: Total thread time: 24.52 s
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display: Total thread preprocess time: 12.462 s
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display: Percentage time preprocessing: 50.82%
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display: Effective parallelization: 2.59 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.95 sec, max 2.21 sec, min 0.26 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.81 sec, max 1.69 sec, min 0.28 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 0.64 sec, max 1.65 sec, min 0.28 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    4 times, average 0.46 sec, max 1.41 sec, min 0.12 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 34.95% of total time (compiled    9 times, average 0.95 sec, max 2.21 sec, min 0.26 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 29.80% of total time (compiled    9 times, average 0.81 sec, max 1.69 sec, min 0.28 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.51% of total time (compiled    4 times, average 0.64 sec, max 1.65 sec, min 0.28 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.54% of total time (compiled    4 times, average 0.46 sec, max 1.41 sec, min 0.12 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 1.92% of total time (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2025.03.13-11.20.04:545][479]LogShaderCompilers: Display: ================================================
+[2025.03.13-11.20.04:623][479]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/chest006_2-new-nm_Mat
+[2025.03.13-11.20.04:623][479]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/chest006_2-new-nm_MatEA53605E41C9A55497FC0FAFECA379FF.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/chest006_2-new-nm_Mat.uasset'
+[2025.03.13-11.20.05:342][479]LogSavePackage: Moving output files for package: /Game/Kitchen_Assets/kitchen001-new-nm_Mat
+[2025.03.13-11.20.05:342][479]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/kitchen001-new-nm_MatBAC4064C43BAFE85757B33936DACEE66.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/Kitchen_Assets/kitchen001-new-nm_Mat.uasset'
+[2025.03.13-11.20.05:351][479]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.06 sec (total: 3.96 sec)
+[2025.03.13-11.20.05:352][479]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.13-11.20.05:352][479]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Kitchen_Assets/chest006_2-new-nm_Mat.chest006_2-new-nm_Mat
+[2025.03.13-11.20.05:352][479]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Kitchen_Assets/kitchen001-new-nm_Mat.kitchen001-new-nm_Mat
