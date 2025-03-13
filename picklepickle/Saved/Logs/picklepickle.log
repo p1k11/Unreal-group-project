@@ -1501,3 +1501,49 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.13-10.24.03:133][939]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1335.473755
 [2025.03.13-10.24.03:326][946]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.13-10.24.03:326][946]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1335.638672, Update Interval: 348.282715
+[2025.03.13-10.27.12:941][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.03.13-10.27.23:196][913]LogSlate: Window 'Delete Assets' being destroyed
+[2025.03.13-10.28.54:293][194]LogSlate: Took 0.010412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.03.13-10.30.15:386][106]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1707.726685
+[2025.03.13-10.30.15:559][113]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.30.15:559][113]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1707.872437, Update Interval: 320.918610
+[2025.03.13-10.30.40:739][ 49]LogEditorTransaction: Undo Move Node
+[2025.03.13-10.30.41:893][ 76]LogEditorTransaction: Undo Move Node
+[2025.03.13-10.30.42:583][ 92]LogEditorTransaction: Undo Move Node
+[2025.03.13-10.30.43:299][109]LogEditorTransaction: Undo Move Node
+[2025.03.13-10.30.43:943][124]LogEditorTransaction: Undo Move Node
+[2025.03.13-10.30.44:572][138]LogEditorTransaction: Undo Create Pin Link
+[2025.03.13-10.30.45:207][151]LogEditorTransaction: Undo Move Node
+[2025.03.13-10.30.45:983][164]LogEditorTransaction: Undo Move Node
+[2025.03.13-10.30.46:744][183]LogEditorTransaction: Undo Move Node
+[2025.03.13-10.30.48:034][222]LogEditorTransaction: Undo Add Node
+[2025.03.13-10.31.14:016][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.03.13-10.31.14:021][178]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV_Auto2
+[2025.03.13-10.31.14:022][178]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/DXY1ROMU8NVTUPH999VNGV_Auto22ADA82864D6CA0B6346237850EFAC993.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV_Auto2.uasset'
+[2025.03.13-10.31.14:026][178]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/26/QQ33P0X99WAGOUD3MFK1VX_Auto2
+[2025.03.13-10.31.14:026][178]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/QQ33P0X99WAGOUD3MFK1VX_Auto21E8AC2B24B9F6EFBC05C2885FEC7786A.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/26/QQ33P0X99WAGOUD3MFK1VX_Auto2.uasset'
+[2025.03.13-10.31.14:030][178]LogWorldPartition: Can't find class descriptor '/Game/FirstPerson/Blueprints/StockCube_AI1.StockCube_AI1_C' for saving '/Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StockCube_AI1_C_UAID_A02942E8EEBDB75402_1891946407'
+[2025.03.13-10.31.14:030][178]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/27/IJMOUPY0HYLB9INSAWZXW6_Auto2
+[2025.03.13-10.31.14:031][178]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/IJMOUPY0HYLB9INSAWZXW6_Auto2833394AA45FF6A66F98F479E5AC7549E.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/27/IJMOUPY0HYLB9INSAWZXW6_Auto2.uasset'
+[2025.03.13-10.31.14:033][178]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.039
+[2025.03.13-10.31.14:033][178]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2025.03.13-10.31.14:034][178]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/StockCube_AI] ([2] browsable assets)...
+[2025.03.13-10.31.14:034][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/StockCube_AI]
+[2025.03.13-10.31.14:048][178]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/StockCube_AI_Auto2
+[2025.03.13-10.31.14:048][178]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/StockCube_AI_Auto2501E2C3D4B1FFE10B751318B744673B6.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/FirstPerson/Blueprints/StockCube_AI_Auto2.uasset'
+[2025.03.13-10.31.14:050][178]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/StockCube_AI1] ([2] browsable assets)...
+[2025.03.13-10.31.14:050][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/StockCube_AI1]
+[2025.03.13-10.31.14:061][178]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/StockCube_AI1_Auto2
+[2025.03.13-10.31.14:061][178]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/StockCube_AI1_Auto25E3569024D40115D5AEFC6833EA5AF72.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/FirstPerson/Blueprints/StockCube_AI1_Auto2.uasset'
+[2025.03.13-10.31.14:062][178]LogFileHelpers: Auto-saving content packages took 0.028
+[2025.03.13-10.33.27:944][ 50]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-10.33.27:944][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-10.36.13:438][878]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2065.788574
+[2025.03.13-10.36.13:599][884]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.36.13:599][884]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2065.922363, Update Interval: 332.522339
+[2025.03.13-10.40.46:275][843]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.40.46:400][843]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/StockCube_AI
+[2025.03.13-10.40.46:401][843]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/StockCube_AI8DC6D38146A52B7E43B983BA5300B803.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/FirstPerson/Blueprints/StockCube_AI.uasset'
+[2025.03.13-10.40.46:412][843]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 461 ms)
+[2025.03.13-10.40.46:416][843]AssetCheck: New page: Asset Save: StockCube_AI
+[2025.03.13-10.40.46:416][843]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/StockCube_AI.StockCube_AI
