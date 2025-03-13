@@ -1564,3 +1564,112 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.13-10.41.41:874][178]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_42
 [2025.03.13-10.41.41:874][178]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/StockCube_AI1.StockCube_AI1
 [2025.03.13-10.41.41:874][178]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/StockCube_AI1.StockCube_AI1_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StockCube_AI1_C_UAID_A02942E8EEBDB75402_1891946407
+[2025.03.13-10.42.36:545][481]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2448.892578
+[2025.03.13-10.42.36:689][487]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.42.36:689][487]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2449.011475, Update Interval: 308.368164
+[2025.03.13-10.43.24:010][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.03.13-10.43.27:000][309]LogSlate: Window 'Delete Assets' being destroyed
+[2025.03.13-10.44.12:316][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.03.13-10.44.12:320][308]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE_Auto3
+[2025.03.13-10.44.12:320][308]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/RCXALNT3NG94XMV0V6D4XE_Auto35E9B3A294EC4C9E735A1D3BFE587F835.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE_Auto3.uasset'
+[2025.03.13-10.44.12:322][308]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.024
+[2025.03.13-10.44.12:322][308]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.024
+[2025.03.13-10.48.22:910][230]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2795.262939
+[2025.03.13-10.48.23:913][233]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.48.23:913][233]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2795.929932, Update Interval: 348.707550
+[2025.03.13-10.54.45:641][378]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3177.992188
+[2025.03.13-10.54.46:641][381]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-10.54.46:641][381]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3178.656982, Update Interval: 345.422516
+[2025.03.13-10.57.58:905][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.03.13-10.57.58:908][605]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.019
+[2025.03.13-10.57.58:908][605]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/StockCube_AI] ([2] browsable assets)...
+[2025.03.13-10.57.58:908][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/StockCube_AI]
+[2025.03.13-10.57.58:917][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/StockCube_AI_Auto4
+[2025.03.13-10.57.58:917][605]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/StockCube_AI_Auto404A700DC4180E12161F5F6A9A03D25BB.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/FirstPerson/Blueprints/StockCube_AI_Auto4.uasset'
+[2025.03.13-10.57.58:918][605]LogFileHelpers: Auto-saving content packages took 0.010
+[2025.03.13-11.01.31:737][957]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3584.095459
+[2025.03.13-11.01.32:742][960]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-11.01.32:742][960]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3584.762451, Update Interval: 327.572876
+[2025.03.13-11.03.41:063][649]LogDerivedDataCache: C:/Users/gough/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.218 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 559 files in 943 folders with total size 3 MiB.
+[2025.03.13-11.03.44:472][767]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StarterContent/Materials/M_Ceramic_Tile_Checker.M_Ceramic_Tile_Checker
+[2025.03.13-11.03.44:560][767]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.13-11.03.44:566][767]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.13-11.03.44:882][767]MaterialEditorStats: Texture samplers: 0/16
+[2025.03.13-11.03.44:882][767]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2025.03.13-11.03.44:882][767]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.13-11.03.44:882][767]MaterialEditorStats: Shader Count: 0
+[2025.03.13-11.03.44:895][767]LogViewport: Scene viewport resized to 560x709, mode Windowed.
+[2025.03.13-11.03.50:288][911]LogShaderCompilers: Display: ================================================
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Total job queries 14, among them cache hits 0 (0.00%)
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: RAM used: 20.35 KiB of 819.20 MiB budget. Usage: 0.00%
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Shaders Compiled: 1
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Jobs assigned 9, completed 1 (11.11%)
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Time job spent in pending queue: average 0.37 s, longest 2.86 s
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Job execution time: average 5.26 s, max 5.26 s
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Job life time (pending + execution): average 5.32 s, max 5.32
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Shader code size: average 33.285 KiB, min 33.285 KiB, max 33.285 KiB
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.32 s
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Average processing rate: 0.19 jobs/sec
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Total thread time: 1.413 s
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Total thread preprocess time: 1.221 s
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Percentage time preprocessing: 86.42%
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Effective parallelization: 0.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 1.41 sec, max 1.41 sec, min 1.41 sec)
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2025.03.13-11.03.50:289][911]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 1.41 sec, max 1.41 sec, min 1.41 sec)
+[2025.03.13-11.03.50:290][911]LogShaderCompilers: Display: ================================================
+[2025.03.13-11.03.50:449][912]MaterialEditorStats: Texture samplers: 3/16
+[2025.03.13-11.03.50:449][912]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2025.03.13-11.03.50:449][912]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.13-11.03.50:449][912]MaterialEditorStats: Shader Count: 1
+[2025.03.13-11.03.50:643][914]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.03.13-11.03.50:643][914]MaterialEditorStats: Texture samplers: 3/16
+[2025.03.13-11.03.50:643][914]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2025.03.13-11.03.50:643][914]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.13-11.03.50:643][914]MaterialEditorStats: Shader Count: 3
+[2025.03.13-11.03.51:111][923]MaterialEditorStats: Base pass shader: 231 instructions
+[2025.03.13-11.03.51:111][923]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.03.13-11.03.51:111][923]MaterialEditorStats: Texture samplers: 6/16
+[2025.03.13-11.03.51:111][923]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2025.03.13-11.03.51:111][923]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.13-11.03.51:111][923]MaterialEditorStats: Shader Count: 4
+[2025.03.13-11.04.22:166][781]LogSlate: Window 'M_Ceramic_Tile_Checker' being destroyed
+[2025.03.13-11.04.22:178][781]LogSlate: Window 'M_Ceramic_Tile_Checker' being destroyed
+[2025.03.13-11.04.22:185][781]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.04.22:186][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.04.22:265][781]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.03.13-11.04.22:265][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.13-11.07.42:691][430]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3955.048096
+[2025.03.13-11.07.43:686][433]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-11.07.43:686][433]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3955.711426, Update Interval: 350.381165
+[2025.03.13-11.07.59:511][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.03.13-11.07.59:523][479]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB_Auto5
+[2025.03.13-11.07.59:523][479]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/1ZJ54FMA0DAL3I2Q8RFAIB_Auto5C872C0674F231E1D5A352EA5548DB92D.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB_Auto5.uasset'
+[2025.03.13-11.07.59:526][479]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.052
+[2025.03.13-11.07.59:526][479]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.052
+[2025.03.13-11.09.53:869][417]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.09.53:992][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.03.13-11.09.54:009][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.03.13-11.09.54:020][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.03.13-11.09.54:022][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB
+[2025.03.13-11.09.54:023][417]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/1ZJ54FMA0DAL3I2Q8RFAIB5BE2B2DE45D6C520F962AEB3B078F884.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB.uasset'
+[2025.03.13-11.09.54:025][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE
+[2025.03.13-11.09.54:027][417]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/RCXALNT3NG94XMV0V6D4XECD3DB0614759CAC381902AB130415A8C.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE.uasset'
+[2025.03.13-11.09.54:041][417]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 783 ms)
+[2025.03.13-11.09.54:044][417]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.13-11.09.54:044][417]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_0
+[2025.03.13-11.09.54:044][417]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_41
+[2025.03.13-11.09.56:105][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.03.13-11.09.58:062][506]LogSlate: Window 'Save Content' being destroyed
+[2025.03.13-11.09.58:098][506]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-11.09.58:201][506]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/StockCube_AI
+[2025.03.13-11.09.58:201][506]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/StockCube_AI540B70154B90C9CCACDC7A810FED7C4E.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/FirstPerson/Blueprints/StockCube_AI.uasset'
+[2025.03.13-11.09.58:211][506]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 896 ms)
+[2025.03.13-11.09.58:212][506]AssetCheck: New page: Asset Save: StockCube_AI
+[2025.03.13-11.09.58:212][506]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/StockCube_AI.StockCube_AI
