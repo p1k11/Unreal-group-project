@@ -1547,3 +1547,20 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.13-10.40.46:412][843]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 461 ms)
 [2025.03.13-10.40.46:416][843]AssetCheck: New page: Asset Save: StockCube_AI
 [2025.03.13-10.40.46:416][843]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/StockCube_AI.StockCube_AI
+[2025.03.13-10.41.37:926][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.03.13-10.41.41:710][178]LogSlate: Window 'Save Content' being destroyed
+[2025.03.13-10.41.41:720][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.13-10.41.41:832][178]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/26/QQ33P0X99WAGOUD3MFK1VX
+[2025.03.13-10.41.41:832][178]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/QQ33P0X99WAGOUD3MFK1VX43A3900A40197D7C799C16983F77D251.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/26/QQ33P0X99WAGOUD3MFK1VX.uasset'
+[2025.03.13-10.41.41:836][178]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV
+[2025.03.13-10.41.41:836][178]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/DXY1ROMU8NVTUPH999VNGV6EDD17164E918AB638B8FFBFE08A248A.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV.uasset'
+[2025.03.13-10.41.41:847][178]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/StockCube_AI1
+[2025.03.13-10.41.41:848][178]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/StockCube_AI13A4C99934F5E7AFB1FAC28B45DE27F8A.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/FirstPerson/Blueprints/StockCube_AI1.uasset'
+[2025.03.13-10.41.41:853][178]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/27/IJMOUPY0HYLB9INSAWZXW6
+[2025.03.13-10.41.41:853][178]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/IJMOUPY0HYLB9INSAWZXW6EEEB9A7C4299DB514291439350E8AECB.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/27/IJMOUPY0HYLB9INSAWZXW6.uasset'
+[2025.03.13-10.41.41:870][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 610 ms)
+[2025.03.13-10.41.41:874][178]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.13-10.41.41:874][178]LogContentValidation: Display: Validating /Script/NavigationSystem.NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A02942E8EEBDD65302_1261616809
+[2025.03.13-10.41.41:874][178]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_42
+[2025.03.13-10.41.41:874][178]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/StockCube_AI1.StockCube_AI1
+[2025.03.13-10.41.41:874][178]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/StockCube_AI1.StockCube_AI1_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StockCube_AI1_C_UAID_A02942E8EEBDB75402_1891946407
