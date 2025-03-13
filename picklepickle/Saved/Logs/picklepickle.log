@@ -2062,3 +2062,119 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.13-11.20.05:352][479]AssetCheck: New page: Asset Save: multiple assets
 [2025.03.13-11.20.05:352][479]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Kitchen_Assets/chest006_2-new-nm_Mat.chest006_2-new-nm_Mat
 [2025.03.13-11.20.05:352][479]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Kitchen_Assets/kitchen001-new-nm_Mat.kitchen001-new-nm_Mat
+[2025.03.13-11.21.02:232][685]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4754.601074
+[2025.03.13-11.21.03:233][688]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-11.21.03:233][688]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4755.266602, Update Interval: 310.885956
+[2025.03.13-11.26.59:520][979]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5111.893555
+[2025.03.13-11.26.59:698][986]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-11.26.59:698][986]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5112.044434, Update Interval: 343.353363
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: ================================================
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Total job queries 66, among them cache hits 14 (21.21%)
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Tracking 50 distinct input hashes that result in 35 distinct outputs (70.00%)
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: RAM used: 1.14 MiB of 819.20 MiB budget. Usage: 0.14%
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Shaders Compiled: 50
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Jobs assigned 50, completed 50 (100%)
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Average time worker was idle: 185.14 s
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Time job spent in pending queue: average 0.36 s, longest 3.09 s
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Job execution time: average 1.16 s, max 6.04 s
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Job life time (pending + execution): average 1.53 s, max 6.11
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Shader code size: average 39.691 KiB, min 31.004 KiB, max 61.555 KiB
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.16 s
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Jobs were issued in 50 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Average processing rate: 4.92 jobs/sec
+[2025.03.13-11.28.04:714][507]LogShaderCompilers: Display: Total thread time: 28.124 s
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display: Total thread preprocess time: 12.864 s
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display: Percentage time preprocessing: 45.74%
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display: Effective parallelization: 2.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.95 sec, max 2.21 sec, min 0.26 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.81 sec, max 1.69 sec, min 0.28 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 0.64 sec, max 1.65 sec, min 0.28 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    4 times, average 0.46 sec, max 1.41 sec, min 0.12 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.42 sec, max 0.47 sec, min 0.38 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.47% of total time (compiled    9 times, average 0.95 sec, max 2.21 sec, min 0.26 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.99% of total time (compiled    9 times, average 0.81 sec, max 1.69 sec, min 0.28 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.16% of total time (compiled    4 times, average 0.64 sec, max 1.65 sec, min 0.28 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.57% of total time (compiled    4 times, average 0.46 sec, max 1.41 sec, min 0.12 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 3.01% of total time (compiled    2 times, average 0.42 sec, max 0.47 sec, min 0.38 sec)
+[2025.03.13-11.28.04:715][507]LogShaderCompilers: Display: ================================================
+[2025.03.13-11.28.44:842][959]Cmd: TRANSACTION UNDO
+[2025.03.13-11.28.44:842][959]LogEditorTransaction: Undo Replace component used material
+[2025.03.13-11.28.46:022][994]Cmd: TRANSACTION UNDO
+[2025.03.13-11.28.46:022][994]LogEditorTransaction: Undo Replace component used material
+[2025.03.13-11.30.05:739][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.03.13-11.30.05:749][389]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/QL/31H7DJTVWEX04CCMX5U1SN_Auto6
+[2025.03.13-11.30.05:749][389]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/31H7DJTVWEX04CCMX5U1SN_Auto611F5077B40AD25E3E2EC06812F04F59D.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/QL/31H7DJTVWEX04CCMX5U1SN_Auto6.uasset'
+[2025.03.13-11.30.05:750][389]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.033
+[2025.03.13-11.30.05:751][389]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2025.03.13-11.30.05:757][389]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Kitchen_Assets/kitchen003-new-nm_Mat] ([1] browsable assets)...
+[2025.03.13-11.30.06:042][389]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Kitchen_Assets/kitchen003-new-nm_Mat.kitchen003-new-nm_Mat]
+[2025.03.13-11.30.06:042][389]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kitchen_Assets/kitchen003-new-nm_Mat]
+[2025.03.13-11.30.06:046][389]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Kitchen_Assets/kitchen003-new-nm_Mat_Auto6
+[2025.03.13-11.30.06:047][389]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/kitchen003-new-nm_Mat_Auto6C2BAD4B947C03B465C85C6A671F590E9.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/Kitchen_Assets/kitchen003-new-nm_Mat_Auto6.uasset'
+[2025.03.13-11.30.06:049][389]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Kitchen_Assets/wash_a-new_Mat] ([1] browsable assets)...
+[2025.03.13-11.30.06:077][389]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Kitchen_Assets/wash_a-new_Mat.wash_a-new_Mat]
+[2025.03.13-11.30.06:077][389]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kitchen_Assets/wash_a-new_Mat]
+[2025.03.13-11.30.06:081][389]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Kitchen_Assets/wash_a-new_Mat_Auto6
+[2025.03.13-11.30.06:082][389]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/wash_a-new_Mat_Auto63C8CB7964AD48AE7BCB680BFAEF5A435.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/Kitchen_Assets/wash_a-new_Mat_Auto6.uasset'
+[2025.03.13-11.30.06:083][389]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Kitchen_Assets/wash_a-new-nm_Mat] ([1] browsable assets)...
+[2025.03.13-11.30.06:112][389]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Kitchen_Assets/wash_a-new-nm_Mat.wash_a-new-nm_Mat]
+[2025.03.13-11.30.06:112][389]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kitchen_Assets/wash_a-new-nm_Mat]
+[2025.03.13-11.30.06:115][389]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Kitchen_Assets/wash_a-new-nm_Mat_Auto6
+[2025.03.13-11.30.06:115][389]LogSavePackage: Moving '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/wash_a-new-nm_Mat_Auto61C32DC4E48848CCEBF837EB01AD4C152.tmp' to '../../../../../../Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Saved/Autosaves/Game/Kitchen_Assets/wash_a-new-nm_Mat_Auto6.uasset'
+[2025.03.13-11.30.06:116][389]LogFileHelpers: Auto-saving content packages took 0.366
+[2025.03.13-11.30.52:953][  5]LogContentBrowser: Deferred new asset file creation: wash_a-new-nm_Array
+[2025.03.13-11.30.52:968][  5]LogContentBrowser: Creating deferred item: wash_a-new-nm_Array
+[2025.03.13-11.30.52:986][  6]LogContentBrowser: Renaming the item being created (Deferred Item: wash_a-new-nm_Array).
+[2025.03.13-11.30.58:610][237]LogContentBrowser: Attempting asset rename: wash_a-new-nm_Array -> wash_a-new-nm_Array
+[2025.03.13-11.30.58:621][237]LogTexture: Display: Building textures: /Game/Kitchen_Assets/wash_a-new-nm_Array.wash_a-new-nm_Array (TFO_BC5, 512x640 x1x1x1) (Required Memory Estimate: 96.312475 MB), EncodeSpeed: Fast
+[2025.03.13-11.30.58:626][237]LogContentBrowser: End creating deferred item wash_a-new-nm_Array
+[2025.03.13-11.31.29:139][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.03.13-11.31.35:177][454]LogSlate: Window 'Delete Assets' being destroyed
+[2025.03.13-11.31.35:213][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.03.13-11.31.35:230][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.03.13-11.31.35:245][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.03.13-11.31.53:767][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.03.13-11.31.56:153][136]LogSlate: Window 'Delete Assets' being destroyed
+[2025.03.13-11.31.56:177][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2025.03.13-11.31.56:198][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.03.13-11.31.56:213][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.03.13-11.31.57:490][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.03.13-11.32.01:145][177]LogSlate: Window 'Delete Assets' being destroyed
+[2025.03.13-11.32.01:194][177]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Kitchen_Assets/wash_a-new-nm_Mat.wash_a-new-nm_Mat
+	Asset Type: Material
+[2025.03.13-11.32.01:570][177]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_A02942E8EEBDC85302_1879368344 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/WI/9368RY3OPVY0MUEUDHR78B.PackageMetaData in its package
+[2025.03.13-11.32.01:574][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.03.13-11.32.01:586][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.03.13-11.32.01:600][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.03.13-11.32.01:660][177]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.03.13-11.32.04:017][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.03.13-11.32.05:965][237]LogSlate: Window 'Delete Assets' being destroyed
+[2025.03.13-11.32.05:991][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.03.13-11.32.06:008][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.03.13-11.32.06:022][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.03.13-11.32.08:570][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.03.13-11.32.11:999][328]LogSlate: Window 'Delete Assets' being destroyed
+[2025.03.13-11.32.12:037][328]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Kitchen_Assets/kitchen001-new-nm_Mat.kitchen001-new-nm_Mat
+	Asset Type: Material
+[2025.03.13-11.32.12:236][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.03.13-11.32.12:249][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.03.13-11.32.12:258][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.03.13-11.32.25:023][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.03.13-11.32.27:465][819]LogSlate: Window 'Delete Assets' being destroyed
+[2025.03.13-11.32.27:503][819]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Kitchen_Assets/chest006_2-new-nm_Mat.chest006_2-new-nm_Mat
+	Asset Type: Material
+[2025.03.13-11.32.27:698][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.03.13-11.32.27:711][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.03.13-11.32.27:723][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.03.13-11.32.49:032][636]Cmd: TRANSACTION UNDO
+[2025.03.13-11.32.49:032][636]LogEditorTransaction: Undo Replace component used material
+[2025.03.13-11.33.35:218][270]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5507.604492
+[2025.03.13-11.33.35:407][277]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.13-11.33.35:407][277]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5507.765137, Update Interval: 347.737061
