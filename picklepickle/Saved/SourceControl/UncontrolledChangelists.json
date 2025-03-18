@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/4H/UBSBIPOER7HSF7J4996WXX.uasset",
+				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/FirstPerson/Blueprints/Improved_Stock.uasset",
+				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/NQ/4MQT7J20YV3BPXRNB4XFN4.uasset",
+				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/AX/77T6FFGAHEQYFJHVE7Y85Q.uasset",
+				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/D5/TXWRYHV91WIJ1CYKEIETT8.uasset",
 				"H:/Desktop/Group Unreal/Unreal-group-project/picklepickle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA.uasset",
 				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset",
@@ -51,8 +56,7 @@
 				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2.uasset",
 				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/NB/NWWEVRQSGT6ARVZ8HQLCM9.uasset",
 				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20.uasset",
-				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U.uasset",
-				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/4H/UBSBIPOER7HSF7J4996WXX.uasset"
+				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U.uasset"
 			]
 		}
 	]
