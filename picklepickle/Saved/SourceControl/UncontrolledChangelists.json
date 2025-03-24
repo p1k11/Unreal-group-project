@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/timot/Documents/UnrealProjects/latestpickle/Unreal-group-project/picklepickle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/timot/Documents/UnrealProjects/latestpickle/Unreal-group-project/picklepickle/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile1.uasset",
+				"C:/Users/timot/Documents/UnrealProjects/latestpickle/Unreal-group-project/picklepickle/Content/UI/HUD.uasset",
 				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/FirstPerson/Blueprints/Improved_Stock.uasset",
 				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/NQ/4MQT7J20YV3BPXRNB4XFN4.uasset",
 				"C:/Users/gough/Documents/GitHub/Unreal-group-project/picklepickle/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/AX/77T6FFGAHEQYFJHVE7Y85Q.uasset",
