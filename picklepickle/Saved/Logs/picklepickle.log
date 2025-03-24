@@ -15682,3 +15682,59 @@ Continue: Skip saving this asset only.
 /Game/UI/HUD
 /Game/UI/DeathScreen
 [2025.03.24-22.57.57:212][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.20 sec (total: 1:03 min)
+[2025.03.24-23.01.20:354][339]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.03.24-23.01.32:787][176]LogContentBrowser: Deferred new asset file creation: MainMenu2
+[2025.03.24-23.01.32:802][176]LogContentBrowser: Creating deferred item: MainMenu2
+[2025.03.24-23.01.32:823][177]LogContentBrowser: Renaming the item being created (Deferred Item: MainMenu2).
+[2025.03.24-23.01.35:747][431]LogContentBrowser: Attempting asset rename: MainMenu2 -> Settings
+[2025.03.24-23.01.35:777][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.03.24-23.01.35:790][431]LogContentBrowser: End creating deferred item MainMenu2
+[2025.03.24-23.01.37:147][508]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Settings.Settings
+[2025.03.24-23.01.37:147][508]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.24-23.01.37:147][508]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.24-23.01.37:158][508]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.24-23.01.37:158][508]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.24-23.02.51:222][388]LogDerivedDataCache: C:/Users/timot/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.212 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 908 files in 1508 folders with total size 67 MiB.
+[2025.03.24-23.04.18:332][688]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3593.456299
+[2025.03.24-23.04.18:484][697]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.24-23.04.18:484][697]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3593.592773, Update Interval: 350.207214
+[2025.03.24-23.04.52:938][492]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.24-23.04.58:889][778]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.24-23.07.03:457][899]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 75021
+[2025.03.24-23.07.03:459][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.24-23.07.03:466][900]LogSlate: Took 0.000409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.03.24-23.07.03:475][900]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.03.24-23.07.03:479][900]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.03.24-23.07.03:482][900]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.03.24-23.07.03:484][900]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.03.24-23.09.10:594][118]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.03.24-23.10.19:662][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.03.24-23.10.19:666][410]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.026
+[2025.03.24-23.10.19:667][410]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/MainMenu] ([2] browsable assets)...
+[2025.03.24-23.10.19:667][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu]
+[2025.03.24-23.10.19:667][410]Warning: Asset '../../../../../../Users/timot/Documents/UnrealProjects/unrealpj/Unreal-group-project/picklepickle/Saved/Autosaves/Game/UI/MainMenu_Auto2.uasset' cannot be saved as it has only been partially loaded
+[2025.03.24-23.10.52:419][769]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.03.24-23.11.06:857][350]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4001.988037
+[2025.03.24-23.11.07:051][360]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.24-23.11.07:051][360]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4002.164551, Update Interval: 347.088837
+[2025.03.24-23.13.56:532][205]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.24-23.13.56:568][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Settings" FILE="../../../../../../Users/timot/Documents/UnrealProjects/unrealpj/Unreal-group-project/picklepickle/Content/UI/Settings.uasset" SILENT=true
+[2025.03.24-23.13.56:581][205]LogSavePackage: Moving output files for package: /Game/UI/Settings
+[2025.03.24-23.13.56:581][205]LogSavePackage: Moving '../../../../../../Users/timot/Documents/UnrealProjects/unrealpj/Unreal-group-project/picklepickle/Saved/SettingsF8450DE747123A3EA1DD259BC848465B.tmp' to '../../../../../../Users/timot/Documents/UnrealProjects/unrealpj/Unreal-group-project/picklepickle/Content/UI/Settings.uasset'
+[2025.03.24-23.13.56:595][205]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1:04 min)
+[2025.03.24-23.13.56:596][205]AssetCheck: New page: Asset Save: Settings
+[2025.03.24-23.13.56:596][205]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Settings.Settings
+[2025.03.24-23.13.59:989][457]LogSlate: Took 0.000454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.03.24-23.15.09:099][525]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.24-23.15.43:715][368]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.03.24-23.16.09:969][607]LogEditorTransaction: Undo Resize Widget
+[2025.03.24-23.16.48:173][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.24-23.16.48:213][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Settings" FILE="../../../../../../Users/timot/Documents/UnrealProjects/unrealpj/Unreal-group-project/picklepickle/Content/UI/Settings.uasset" SILENT=true
+[2025.03.24-23.16.48:227][647]LogSavePackage: Moving output files for package: /Game/UI/Settings
+[2025.03.24-23.16.48:229][647]LogSavePackage: Moving '../../../../../../Users/timot/Documents/UnrealProjects/unrealpj/Unreal-group-project/picklepickle/Saved/Settings05F544464FF036BC8BCBFF87F3039B80.tmp' to '../../../../../../Users/timot/Documents/UnrealProjects/unrealpj/Unreal-group-project/picklepickle/Content/UI/Settings.uasset'
+[2025.03.24-23.16.48:239][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 1:04 min)
+[2025.03.24-23.16.48:242][647]AssetCheck: New page: Asset Save: Settings
+[2025.03.24-23.16.48:242][647]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Settings.Settings
+[2025.03.24-23.17.45:283][185]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4400.413574
+[2025.03.24-23.17.46:284][188]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.24-23.17.46:284][188]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4401.081543, Update Interval: 304.676666
